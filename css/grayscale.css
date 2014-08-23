@@ -357,8 +357,8 @@ a:focus {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #008551;
-  border: 6px solid #008551;
+  background-color: #00b86f;
+  border: 6px solid #00b86f;
 }
 .btn-default {
   border: 6px solid #009e60;
@@ -367,9 +367,10 @@ a:focus {
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 6px solid #008551;
+  border: 6px solid #00b86f;
   outline: none;
-  color: #008551;
+  background-color: inherit;
+  color: #00b86f;
 }
 ul.banner-social-buttons {
   margin-top: 0;

@@ -367,8 +367,8 @@ a {
     background-color: @primary;
     &:hover,
     &:focus{
-        background-color: darken(@primary, 5%);
-        border: 6px solid darken(@primary, 5%);
+        background-color: lighten(@primary, 5%);
+        border: 6px solid lighten(@primary, 5%);
     }
 }
 .btn-default {
@@ -377,9 +377,11 @@ a {
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 6px solid darken(@primary, 5%);
+        border: 6px solid lighten(@primary, 5%);
         outline: none;
-        color: darken(@primary, 5%);
+        background-color: inherit;
+
+        color: lighten(@primary, 5%);
     }
 }
 
