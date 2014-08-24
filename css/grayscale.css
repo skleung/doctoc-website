@@ -295,6 +295,12 @@ a:focus {
   padding-bottom: 100px;
   background-color: white;
 }
+#signup .signup-heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #009e60;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 #physician-signin,
 #patient-signin {
   font-size: 90px;
